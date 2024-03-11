@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  
+  <script src="JSUtils.js"></script>
+  <script>
+    console.log(JSUtils.capitalize("hello")); // Outputs: "Hello"
+            console.log(JSUtils.reverseString("world")); // Outputs: "dlrow"
+
+            var myArray = [1, 2, 3, 4, 5];
+            console.log(JSUtils.shuffleArray(myArray)); // Outputs: Shuffled array
+            console.log(JSUtils.arrayUnique([1, 2, 2, 3, 3, 4])); // Outputs: [1, 2, 3, 4]
+
+            // More examples can be added here
+            var currentDate = new Date();
+            console.log(JSUtils.formatDate(currentDate, "dd/MM/yyyy")); // Outputs: "05/03/2024"
+
+
+            console.log(JSUtils.fibonacci(10)); // Outputs: [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+            console.log(JSUtils.isPrime(10)); // Outputs: false
+  </script>
+</body>
+</html>
